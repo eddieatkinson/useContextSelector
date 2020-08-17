@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { createContext } from "use-context-selector";
+import React, { useState, useEffect, createContext } from "react";
+// import { createContext } from "use-context-selector";
 
 export const AppContext = createContext();
 
 function Store({ children }) {
+  console.log("STORE");
   const [array, setArray] = useState([]);
   const [number, setNumber] = useState(6);
   useEffect(() => {
