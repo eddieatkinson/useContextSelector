@@ -1,0 +1,2 @@
+export const SET_ARRAY_ACTION = "SET_ARRAY_ACTION";
+export const SET_NUMBER_ACTION = "SET_NUMBER_ACTION";
